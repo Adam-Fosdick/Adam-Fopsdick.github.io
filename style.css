@@ -1,4 +1,124 @@
-html{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+header{
+    background: black;
+    position: sticky;
+    top: 0;
+    color: white;
+    font-size: 2.5rem;
+    list-style: none;
+    max-height: 100px;
+    text-align: center;
+    
+   
+}
+html {
+    background-image: url(https://media.istockphoto.com/vectors/marble-textured-light-colored-beige-vintage-paper-vector-illustration-vector-id1186232338?k=20&m=1186232338&s=612x612&w=0&h=689nT1Xzggc6RBD6ToDmkkRjX9Dl5CNBf-nUwPkZRYo=);
+    
+    background-size: cover;
+}
+
+p{
+    padding: 10px;
+}
+p1{
+    font-size: 1.25rem;
+   box-sizing: border-box;
+   width: 100px;
+   
+
+}
+ 
+h1{
+    font-size: 4rem;
+    
+    padding-left: 100px;
+    
+    color: rgb(0, 0, 0);
+    
+    text-shadow: 10px;
+   
+    font-family:sans-serif;
+}
+
+#vertical{
+    margin: 80px;
+    text-align: center;
+    
+    display:inline
+    
+   
+  
+}
+footer{
+   bottom: 0;
+ width: 100%; 
+padding-bottom: 0;
+}
+#footer{
+ background-color: rgb(0, 0, 0);
+ font-size:  2.5rem;
+ color:white;
+
+
+ 
+
+
+ 
+}
+#work{
+border-image: url(https://scontent.fsac1-2.fna.fbcdn.net/v/t1.18169-9/179514_10150867913782749_540980243_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=cdbe9c&_nc_ohc=DuS-RJRovMkAX-Yd8gb&tn=cVLV255xkYhbCBW6&_nc_ht=scontent.fsac1-2.fna&oh=00_AT_6bAYLduC1Tcnu6FtLsxIh0dylr3Fh_Y1EcGWWZG2qTw&oe=632AC6B8);
+}
+aside{
+    width: 20%;
+    float: right;
+    max-width: 150;
+    min-width: 100;
+    background-color: rgb(237, 237, 237);
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    border: rgb(177, 165, 114);
+border-width: 8px;
+border-style: groove;
+}
+p2{
+    text-emphasis: bold;
+    text-decoration:wavy;
+    font-size: 1.75rem;
+}
+h2{
+    padding: 10px;
+}
+h3{
+    padding: 10px;
+}
+  #verticalbox{
+    box-sizing: border-box;
+    background-color: rgb(202, 196, 196);
+    border: 1px solid black;
+    margin: 40px;
+    border-radius: 15%;
+    padding: 10px;
+    align-content: center;
+    display: inline;
+    height: 100px;
+}
+.class{
+    width: 500px;
+    height: 500px;
+    align-content: center;
+ background: #000;
+    border: 5px solid rgb(217, 255, 0);
+    margin: 10px;
+}
+/* html{
     font-size: 62.5%;
 }
 button{
@@ -10,7 +130,7 @@ button{
     font-size: 2.4rem;
     border-radius: 1rem;
     background: blueviolet;
-}
+} */
 /*.text-section{
     font-size: 1.6rem;
 }
