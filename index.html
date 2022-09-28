@@ -45,7 +45,7 @@
 
     <nav id="navbar" class="navbar nav-menu">
       <ul>
-        <li><a href="index.html" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+        <li><a href="index.html" class="nav-link scrollto active"><i onmousedown='audio.play()' class="bx bx-home"></i> <span>Home</span></a></li>
         <li><a href="work-experiance.html" class="nav-link scrollto"><i class='bx bxs-briefcase' ></i><span>Work Experience</span></a></li>
         <li><a href="cplusplus.html" class="nav-link scrollto"> <i class='bx bxl-c-plus-plus' ></i><span>C++</span></a></li>
         <li><a href="javascript.html" class="nav-link scrollto"><i class='bx bxl-javascript' ></i><span>Java Script</span></a></li>
@@ -57,6 +57,10 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
+ <script type='text/javascript'>
+ const audio = new Audio()
+ audio.src = "click"
+ </script>
   <section id="hero" class="d-flex flex-column justify-content-center">
     <div class="container" data-aos="zoom-in" data-aos-delay="100">
       <h1>Adam Fosdick</h1>
