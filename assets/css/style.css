@@ -404,6 +404,19 @@ h6 {
   background: url("../img/aboutt.jpg") center left 
   
 }
+.clock {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #000000;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+ 
+
+
+}
 
 @media (max-width: 992px) {
   #school {
@@ -443,6 +456,27 @@ height: 100vh;
   #hero {
     padding-left: 160px;
   }
+}
+.cbutton {
+  width: 100px;
+  height: 100px;
+  border: solid black 2px;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+#grey{
+  background: grey;
+}
+
+#white{
+  background: white;
+}
+#blue{
+  background: blue;
+}
+#yellow{
+  background: yellow;
 }
 
 #hero:before {
